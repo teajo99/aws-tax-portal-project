@@ -1,6 +1,9 @@
-# 🚀 AWS Government Tax Filing Portal (Highly Available Architecture)
+Architecture Diagram 
+![image alt](https://github.com/teajo99/aws-tax-portal-project/blob/c1e9750f0343f21a08de5b924a4f5902f869743d/Architecture%20Diagram.png)
 
-## 📌 Overview
+# AWS Government Tax Filing Portal (Highly Available Architecture)
+
+## Overview
 
 This project demonstrates a highly available and scalable web application simulating a **Government Tax Filing System** built on Amazon Web Services.
 
@@ -15,7 +18,7 @@ Built using core AWS services like EC2, VPC, ELB, ASG, and SNS.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Users
 ↓
@@ -44,7 +47,7 @@ VPC (Multi-AZ Deployment)
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Highly available architecture across 2 Availability Zones
 - Auto scaling based on CPU utilization
@@ -55,7 +58,7 @@ VPC (Multi-AZ Deployment)
 
 ---
 
-## 🧪 Deployment Steps
+##  Deployment Steps
 
 ### 1. VPC Setup
 - Created custom VPC
@@ -112,7 +115,7 @@ The EC2 instances are automatically configured using the following script:
 
 ---
 
-## 🌐 Web Application
+##  Web Application
 
 The application displays:
 
@@ -128,7 +131,7 @@ Secure Portal Running inside AWS VPC
 
 ---
 
-## 🧠 Key Learning Outcomes
+##  Key Learning Outcomes
 
 - Designing scalable cloud architectures
 - Understanding load balancing concepts
@@ -159,7 +162,7 @@ Secure Portal Running inside AWS VPC
 
 ---
 
-## 📊 Final Result
+## Final Result
 
 A fully working cloud architecture that:
 - Handles traffic distribution via ALB
@@ -170,6 +173,6 @@ A fully working cloud architecture that:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Cloud Engineering Project demonstrating real-world AWS architecture design and troubleshooting skills.
