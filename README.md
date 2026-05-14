@@ -35,7 +35,7 @@ VPC (Multi-AZ Deployment)
 
 ---
 
-## ☁️ AWS Services Used
+##  AWS Services Used
 
 - EC2 (Virtual Servers)
 - VPC (Network Isolation)
