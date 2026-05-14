@@ -1,0 +1,19 @@
+
+VERSION 1 (WRONG – does NOT execute hostname)
+
+Why this is wrong:
+'EOF' (single quotes) blocks Bash execution
+$(hostname -f) is treated as plain text
+
+
+VERSION 2 (CORRECT – EXECUTES hostname)
+
+This is what produces:
+ip-10-0-24-33.eu-west-2.compute.internal
+
+
+KEY DIFFERENCE (VERY IMPORTANT)
+Version	Result
+'EOF'	variables DO NOT run
+EOF	variables EXECUTE
+

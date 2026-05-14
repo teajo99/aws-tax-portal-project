@@ -1,0 +1,20 @@
+#!/bin/bash
+
+yum update -y
+yum install -y httpd
+
+systemctl start httpd
+systemctl enable httpd
+
+cat > /var/www/html/index.html << 'EOF'
+<html>
+<head>
+  <title>Government Tax Portal</title>
+</head>
+<body>
+  <h1>Government Tax Filing System</h1>
+  <h2>Server: $(hostname -f)</h2>
+  <p>Secure Portal Running inside AWS VPC</p>
+</body>
+</html>
+EOF
